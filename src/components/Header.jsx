@@ -64,7 +64,7 @@ function Header() {
                 <span className="p-2 me-2 h-45px w-45px primary-color-light-bg rounded-circle flex">
                   <PhoneOutgoing size={16} color="#06af47" />
                 </span>
-                <span className="d-none d-xxl-inline-block">123-456-7890</span>
+                <span className="d-none d-xxl-inline-block fw-medium">123-456-7890</span>
               </a>
             </div>
             <div className="col-6 text-end">

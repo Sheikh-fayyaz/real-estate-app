@@ -46,6 +46,7 @@ const Hero = () => {
                     <div className="col-md-6 col-12">
                     <h1 className="text-white hero-title"><span className='fw-light'>{slide.titleLight}</span><br/>
                     <span className='fw-semibold'>{slide.titleBold}</span></h1>
+                    
                     </div>
                 </div>
             </div>

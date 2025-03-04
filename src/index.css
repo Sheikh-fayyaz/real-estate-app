@@ -3,6 +3,9 @@
   --primary-color-light: rgba(6, 175, 71, 0.2);
 
   --black-color: #000;
+  --grey-color: #717580;
+  --urbanist-font-family:'Urbanist', sans-serif;
+  --Atkinson-font-family: "Atkinson Hyperlegible", sans-serif;
 }
 *{
   margin: 0;
@@ -10,11 +13,21 @@
   box-sizing: border-box;
 }
 body{
-  font-family: "Lexend", sans-serif;
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: var(--Atkinson-font-family);
+}
+p{
+  color: var(--grey-color);
+}
+h1, h2, a, span{
+  font-family: var(--urbanist-font-family);
 }
 a{
   text-decoration: none;
   color: unset;
+  font-family: var(--Atkinson-font-family);
 }
 .primary-color{
   color: var(--primary-color);
@@ -38,6 +51,14 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.section-padding-y{
+  padding: 65px 0px;
+}
+.section-title{
+  font-size: 3.4rem;
+  word-spacing: -4px;
+  letter-spacing: -1px !important;
 }
 a.primary-color-bg:hover{
   background-color: var(--black-color);
